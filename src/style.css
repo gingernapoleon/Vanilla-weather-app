@@ -1,5 +1,12 @@
 body {
-  font-family: arial, sans-serif;
+  margin: auto;
+  padding: 100px;
+  font-family: "Playfair Display", serif;
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
 }
 
 h1 {
@@ -30,8 +37,8 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 4px outset rgba(74, 74, 82, 0.6);
+  border-radius: 10px;
 }
 
 .weather-app-wrapper {
